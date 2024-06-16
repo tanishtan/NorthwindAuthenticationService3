@@ -34,7 +34,7 @@ namespace NorthwindAuthenticationService
                     context.Items["User"] = user; 
                 }
             }
-            await _next(context);
+                await _next(context);
         }
 
     }
